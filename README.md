@@ -12,11 +12,13 @@ This repository demonstrates the use of Terraform to automate the provisioning o
 Terraform is an open-source tool used for provisioning and managing infrastructure using declarative configuration files. 
 
 **Positives of using Terraform**:
-- **Declarative Syntax**: You define the desired state of your infrastructure, and Terraform automatically manages the creation, update, and deletion of resources.
-- **Multi-Cloud Support**: Terraform supports not just AWS but other cloud providers like Azure, Google Cloud, and more, making it a versatile tool for cloud infrastructure.
-- **State Management**: Terraform maintains an up-to-date state file that reflects the real-world state of your infrastructure, ensuring consistency and enabling rollback if needed.
-- **Immutable Infrastructure**: By defining the infrastructure as code, Terraform ensures that the infrastructure is consistent across different environments.
-- **Version Control**: Since infrastructure is treated as code, Terraform configurations can be versioned, shared, and managed using Git or other version control systems.
+Here’s a shortened version of those points:
+
+- **Declarative Syntax**: Define the desired state; Terraform handles creation, updates, and deletions.
+- **Multi-Cloud Support**: Works across AWS, Azure, Google Cloud, etc.
+- **State Management**: Keeps an up-to-date state file for consistency and rollback.
+- **Immutable Infrastructure**: Infrastructure remains consistent across environments.
+- **Version Control**: Terraform configurations can be versioned and shared.
 
 ---
 
