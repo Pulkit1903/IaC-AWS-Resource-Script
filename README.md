@@ -70,7 +70,6 @@ Follow these steps to get started with the project:
 
 2. **Run the terraform commands**
    #### Step 1: Initialize the Terraform configuration
-      ```bash
          terraform init
 ---
    #### Step 2: Validate the configuration
