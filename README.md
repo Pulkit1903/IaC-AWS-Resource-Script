@@ -7,12 +7,11 @@ This repository demonstrates the use of Terraform to automate the provisioning o
 
 ---
 
-##<span style="color:purple"> Why Terraform </span>
+## Why Terraform
 
 Terraform is an open-source tool used for provisioning and managing infrastructure using declarative configuration files. 
 
 **Positives of using Terraform**:
-Here’s a shortened version of those points:
 
 - **Declarative Syntax**: Define the desired state; Terraform handles creation, updates, and deletions.
 - **Multi-Cloud Support**: Works across AWS, Azure, Google Cloud, etc.
@@ -27,13 +26,14 @@ Here’s a shortened version of those points:
 The project utilizes **Terraform modules** for managing AWS resources. 
 
 **Why Terraform Modules?**
-- **Code Reusability**: Modules allow you to reuse Terraform code across different projects or environments, improving consistency and reducing the need to duplicate configurations.
-- **Organized and Maintainable**: Modules help break down complex configurations into smaller, manageable chunks, making the codebase easier to understand and maintain.
-- **Environment-specific Configurations**: By using modules, you can manage environment-specific values in a clear and organized way without redundancy.
+
+- **Code Reusability**: Reuse Terraform code across projects, improving consistency.
+- **Organized & Maintainable**: Breaks complex configurations into smaller, manageable pieces.
+- **Environment-specific Configurations**: Manage environment-specific values without redundancy.
 
 **How it’s better**:
-- **Separation of Concerns**: Terraform modules enable separation of concerns, allowing you to define specific infrastructure components (like networking, compute, storage) independently and reuse them in different contexts.
-- **Easier Updates**: Since changes to a module propagate across all uses of the module, it's easier to apply updates to multiple infrastructure pieces at once.
+- **Separation of Concerns**: Isolate infrastructure components for reusability.
+- **Easier Updates**: Changes to a module apply universally, simplifying updates.
 
 ---
 
@@ -56,6 +56,8 @@ In the `main.tf` file, different types of environments (e.g., development, produ
 2. Define environment-specific variables (e.g., instance types, storage sizes, etc.) for each environment (development, production, etc.).
 3. Terraform will use these variables to provision the correct resources for each environment.
 
+---
+
 ## Getting Started
 
 Follow these steps to get started with the project:
@@ -65,3 +67,22 @@ Follow these steps to get started with the project:
    ```bash
    git clone https://github.com/Pulkit1903/IaC-AWS-Resource-Script.git
    cd IaC-AWS-Resource-Script
+
+2. **Run the terraform commands**
+   # Step 1: Initialize the Terraform configuration
+terraform init
+
+# Step 2: Validate the configuration
+terraform validate
+
+# Step 3: Create an execution plan
+terraform plan
+
+# Step 4: Apply the plan to create resources
+terraform apply
+
+# Step 5: View the current state
+terraform show
+
+# Step 6: If needed, destroy the resources
+terraform destroy
