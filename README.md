@@ -86,4 +86,4 @@ Follow these steps to get started with the project:
          terraform destroy
 ---
    #### Step 6: If needed, destroy the resources
-terraform destroy
+         terraform destroy
