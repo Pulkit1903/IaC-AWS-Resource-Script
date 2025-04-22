@@ -71,18 +71,13 @@ Follow these steps to get started with the project:
 2. **Run the terraform commands**
    #### Step 1: Initialize the Terraform configuration
          terraform init
----
    #### Step 2: Validate the configuration
          terraform validate
----
    #### Step 3: Create an execution plan
          terraform plan
----
    #### Step 4: Apply the plan to create resources
          terraform apply
----   
    #### Step 5: Destroy Resources after use
          terraform destroy
----
    #### Step 6: If needed, destroy the resources
          terraform destroy
