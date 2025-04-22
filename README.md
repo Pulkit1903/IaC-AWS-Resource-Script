@@ -74,18 +74,16 @@ Follow these steps to get started with the project:
          terraform init
 ---
    #### Step 2: Validate the configuration
-      ```bash
          terraform validate
 ---
    #### Step 3: Create an execution plan
-   
-terraform plan
+         terraform plan
 ---
    #### Step 4: Apply the plan to create resources
-terraform apply
+         terraform apply
 ---   
-   #### Step 5: View the current state
-terraform show
+   #### Step 5: Destroy Resources after use
+         terraform destroy
 ---
    #### Step 6: If needed, destroy the resources
 terraform destroy
