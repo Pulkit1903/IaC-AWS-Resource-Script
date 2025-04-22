@@ -7,7 +7,7 @@ This repository demonstrates the use of Terraform to automate the provisioning o
 
 ---
 
-## Why Terraform?
+##<span style="color:purple"> Why Terraform </span>
 
 Terraform is an open-source tool used for provisioning and managing infrastructure using declarative configuration files. 
 
