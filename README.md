@@ -69,7 +69,7 @@ Follow these steps to get started with the project:
    cd IaC-AWS-Resource-Script
 
 2. **Run the terraform commands**
-   - **Step 1: Initialize the Terraform configuration**
+   #### Step 1: Initialize the Terraform configuration
          terraform init
    #### Step 2: Validate the configuration
          terraform validate
