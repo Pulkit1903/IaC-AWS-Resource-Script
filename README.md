@@ -69,20 +69,23 @@ Follow these steps to get started with the project:
    cd IaC-AWS-Resource-Script
 
 2. **Run the terraform commands**
-   # Step 1: Initialize the Terraform configuration
-terraform init
-
-# Step 2: Validate the configuration
-terraform validate
-
-# Step 3: Create an execution plan
+   #### Step 1: Initialize the Terraform configuration
+      ```bash
+         terraform init
+---
+   #### Step 2: Validate the configuration
+      ```bash
+         terraform validate
+---
+   #### Step 3: Create an execution plan
+   
 terraform plan
-
-# Step 4: Apply the plan to create resources
+---
+   #### Step 4: Apply the plan to create resources
 terraform apply
-
-# Step 5: View the current state
+---   
+   #### Step 5: View the current state
 terraform show
-
-# Step 6: If needed, destroy the resources
+---
+   #### Step 6: If needed, destroy the resources
 terraform destroy
